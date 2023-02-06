@@ -1,9 +1,6 @@
 on:
-  workflow_call:
-    inputs:
-      directory:
-        required: true
-        type: string
+  push:
+
 
 env:
   # Use docker.io for Docker Hub if empty
